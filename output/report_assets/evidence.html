@@ -1,0 +1,23 @@
+<!doctype html><meta charset="utf-8"><title>Lab2 - Experiment Evidence</title>
+<style>body{font-family:Arial,"Microsoft JhengHei",sans-serif;background:#edf2f7;margin:0;padding:32px;color:#10283f}
+main{max-width:1120px;margin:auto} h1{margin:0 0 10px} .cards{display:flex;gap:20px;margin:18px 0}
+.card{background:white;padding:20px;border-radius:12px;flex:1} .score{font-size:38px;font-weight:700;color:#116a75}
+table{width:100%;border-collapse:collapse;background:white;font-size:14px} td,th{padding:10px;text-align:left;border-bottom:1px solid #dce3eb}
+th{background:#183e57;color:white} pre{background:#10283f;color:#dcf2f8;padding:15px;border-radius:8px;font-size:13px;line-height:1.5}
+.note{font-size:14px;line-height:1.6}</style><main>
+<h1>Lab2 EEG Classification - 實驗結果證據</h1>
+<div class="note">Seed 42 · 150 epochs × 8 experiments · Train 864 / Validation 216 / Test 1080<br>
+數值直接讀取 history.csv 與 summary.json；逐輪 test 峰值僅供描述，權重與設定選擇依 validation。</div>
+<div class="cards"><div class="card">逐輪最高 test accuracy<div class="score">85.2778%</div>
+並列：eegnet_relu / eegnet_leakyrelu<br>代表輪次：eegnet_relu · epoch 137</div>
+<div class="card">Validation 選定設定與權重的 test accuracy<div class="score">85.2778%</div>
+eegnet_relu · epoch 139</div></div>
+<table><tr><th>Experiment</th><th>Selected epoch</th><th>Validation</th><th>Selected test</th><th>Peak test</th></tr><tr><td>eegnet_baseline</td><td>128</td><td>80.0926%</td><td>74.6296%</td><td>76.5741%</td></tr><tr><td>eegnet_relu</td><td>139</td><td>89.8148%</td><td>85.2778%</td><td>85.2778%</td></tr><tr><td>eegnet_leakyrelu</td><td>117</td><td>87.9630%</td><td>82.8704%</td><td>85.2778%</td></tr><tr><td>eegnet_alpha05</td><td>138</td><td>87.0370%</td><td>83.7963%</td><td>83.7963%</td></tr><tr><td>eegnet_alpha2</td><td>101</td><td>75.0000%</td><td>70.8333%</td><td>73.2407%</td></tr><tr><td>eegnet_dropout0</td><td>139</td><td>75.4630%</td><td>69.4444%</td><td>73.8889%</td></tr><tr><td>eegnet_dropout05</td><td>121</td><td>77.3148%</td><td>73.0556%</td><td>74.6296%</td></tr><tr><td>deepconvnet_baseline</td><td>114</td><td>81.9444%</td><td>77.5926%</td><td>79.1667%</td></tr></table>
+<p class="note">最高 test accuracy 所在輪次的原始 CSV 欄位：</p><pre>epoch: 137.0
+train_loss: 0.12328002436293496
+train_acc: 94.67592592592592
+val_loss: 0.2655692536521841
+val_acc: 87.96296296296296
+test_loss: 0.42118062255559147
+test_acc: 85.27777777777777</pre>
+<div class="note">來源：lab2_EEG_classification/results/；報告保留 test 峰值與 validation 選模結果的區別。</div></main>

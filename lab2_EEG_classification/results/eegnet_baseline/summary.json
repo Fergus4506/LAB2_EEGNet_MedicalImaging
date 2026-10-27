@@ -1,0 +1,16 @@
+{
+  "name": "eegnet_baseline",
+  "model": "eegnet",
+  "activation": "elu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "best_epoch": 128,
+  "val_acc": 80.0925925925926,
+  "val_loss": 0.5800520148542192,
+  "selected_test_acc": 74.62962962962963,
+  "selected_test_loss": 0.7430543877460338,
+  "peak_test_acc": 76.57407407407408,
+  "peak_test_epoch": 150,
+  "parameters": 4018,
+  "seconds": 9.469306899991352
+}

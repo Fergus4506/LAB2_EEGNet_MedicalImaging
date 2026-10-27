@@ -1,0 +1,16 @@
+{
+  "name": "deepconvnet_baseline",
+  "model": "deepconvnet",
+  "activation": "elu",
+  "alpha": 1.0,
+  "dropout": 0.5,
+  "best_epoch": 114,
+  "val_acc": 81.94444444444444,
+  "val_loss": 0.6797804440613147,
+  "selected_test_acc": 77.5925925925926,
+  "selected_test_loss": 0.6555129669330738,
+  "peak_test_acc": 79.16666666666667,
+  "peak_test_epoch": 90,
+  "parameters": 150977,
+  "seconds": 12.996134599961806
+}

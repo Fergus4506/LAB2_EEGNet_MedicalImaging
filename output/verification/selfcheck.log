@@ -1,0 +1,10 @@
+selfcheck epoch=001 train_loss=0.656741 train_acc=65.7407% val_loss=0.566622 val_acc=67.1296% test_loss=0.591752 test_acc=68.3333%
+selfcheck epoch=002 train_loss=0.583330 train_acc=69.5602% val_loss=0.573986 val_acc=69.4444% test_loss=0.551362 test_acc=71.6667%
+{"name": "selfcheck", "model": "eegnet", "activation": "elu", "alpha": 1.0, "dropout": 0.25, "best_epoch": 2, "val_acc": 69.44444444444444, "val_loss": 0.5739862830550583, "selected_test_acc": 71.66666666666667, "selected_test_loss": 0.55136227828485, "peak_test_acc": 71.66666666666667, "peak_test_epoch": 2, "parameters": 4018, "seconds": 0.9314427999779582}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\.cache\\tmp23wreepa\\smoke\\best.pt",
+  "epoch": 2,
+  "test_loss": 0.55136227828485,
+  "test_acc": 71.66666666666667
+}
+PASS: data, split, weighted loss, gradients, selection, reload, path and overwrite checks (cuda)

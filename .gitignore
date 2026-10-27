@@ -1,0 +1,15 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
+tmp/
+output/source/
+**/data/*.npz
+**/results*/**/*.pt
+**/results*/**/*.log
+**/smoke*/
+Lab2_EEGNET_spec.pdf
+build_report_docx.py
+build_report.py

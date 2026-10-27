@@ -1,0 +1,16 @@
+{
+  "name": "eegnet_dropout05",
+  "model": "eegnet",
+  "activation": "elu",
+  "alpha": 1.0,
+  "dropout": 0.5,
+  "best_epoch": 121,
+  "val_acc": 77.31481481481481,
+  "val_loss": 0.5206966091085363,
+  "selected_test_acc": 73.05555555555556,
+  "selected_test_loss": 0.602671859882496,
+  "peak_test_acc": 74.62962962962963,
+  "peak_test_epoch": 104,
+  "parameters": 4018,
+  "seconds": 9.49682879995089
+}

@@ -1,0 +1,16 @@
+{
+  "name": "eegnet_leakyrelu",
+  "model": "eegnet",
+  "activation": "leakyrelu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "best_epoch": 117,
+  "val_acc": 87.96296296296296,
+  "val_loss": 0.29921299826215814,
+  "selected_test_acc": 82.87037037037037,
+  "selected_test_loss": 0.49342143458348736,
+  "peak_test_acc": 85.27777777777777,
+  "peak_test_epoch": 137,
+  "parameters": 4018,
+  "seconds": 8.901338099967688
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results\\eegnet_relu\\best.pt",
+  "epoch": 139,
+  "test_loss": 0.4113969905508889,
+  "test_acc": 85.27777777777777
+}
