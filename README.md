@@ -82,6 +82,8 @@ EEGNet 後段採真正的 depthwise `(1,15), groups=32` 加 pointwise `(1,1)`，
 
 ## 驗收與提交
 
+2026/10/28 修訂版：`output/docx/LAB2_315553010_楊敦傑_數值表版.docx`。原圖 2 網頁截圖已替換為可編輯的 Word 數值表（表 1），保留原 Word 檔已填寫的 GitHub 網址；後續圖號已連續調整。數值與 CSV 核對，11 頁已經 Word 匯出並完成視覺檢查。舊版 DOCX 與 PDF 保留，請使用此數值表版繼續修改及匯出提交 PDF。
+
 實際完成與待完成項目見 `COMPLETION_CRITERIA.md`。
 
 `.gitignore` 排除資料、虛擬環境、快取、checkpoint 及冗長 log；CSV、設定與圖可隨程式庫保存。若要分享訓練權重，可另用 GitHub release 或其他下載位置。尚未提供 GitHub 網址，因此本次不會建立或發布遠端 repository，也不會代填 E3。
