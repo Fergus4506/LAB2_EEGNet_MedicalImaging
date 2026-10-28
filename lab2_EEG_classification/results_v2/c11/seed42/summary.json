@@ -1,0 +1,17 @@
+{
+  "name": "c11",
+  "model": "eegnet",
+  "activation": "leakyrelu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 42,
+  "best_epoch": 93,
+  "val_acc": 87.96296296296296,
+  "val_loss": 0.3547582615304876,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 14.277912399964407,
+  "selected_test_acc": 85.46296296296296,
+  "selected_test_loss": 0.3388001830489547
+}

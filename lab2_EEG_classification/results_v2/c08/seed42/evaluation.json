@@ -1,0 +1,10 @@
+{
+  "checkpoint": "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\c08\\seed42\\best.pt",
+  "epoch": 47,
+  "test_loss": 0.38407980910053957,
+  "test_acc": 82.31481481481482,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}

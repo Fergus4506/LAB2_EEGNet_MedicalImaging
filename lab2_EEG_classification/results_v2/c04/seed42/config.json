@@ -1,0 +1,45 @@
+{
+  "separable": "full",
+  "weight_decay": 0.001,
+  "optimizer": "adam",
+  "scheduler": "cosine",
+  "normalize": false,
+  "augment": false,
+  "full_train": false,
+  "validation_only": true,
+  "split_seed": 42,
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "num_epochs": 150,
+  "batch_size": 64,
+  "lr": 0.01,
+  "name": "c04",
+  "seed": 42,
+  "imputation_mean": -0.02532665990293026,
+  "train_samples": 864,
+  "validation_samples": 216,
+  "augmentation_seed": 42,
+  "augmentation_shift": 50,
+  "augmentation_noise_fraction": 0.05,
+  "augmentation_scale": [
+    0.9,
+    1.1
+  ],
+  "augmentation_std": "per trial/channel temporal population std before augmentation",
+  "selection": "validation_accuracy_then_loss",
+  "dataset_sha256": {
+    "S4b_train.npz": "b9db42999203ede95f4eb37e6cd67d159512a341beb973e954ef35077f5a70d3",
+    "X11b_train.npz": "f068067a7ebc31a16482050569168ef77c7aeab38ef4b208f108a2fc6a52f251"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.9.1+cu126",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.8",
+    "cuda": "12.6",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4070"
+  }
+}

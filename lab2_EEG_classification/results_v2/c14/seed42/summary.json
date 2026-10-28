@@ -1,0 +1,17 @@
+{
+  "name": "c14",
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 42,
+  "best_epoch": 71,
+  "val_acc": 88.42592592592592,
+  "val_loss": 0.3120613876316283,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 7.861866199993528,
+  "selected_test_acc": 85.83333333333333,
+  "selected_test_loss": 0.3961375417532744
+}

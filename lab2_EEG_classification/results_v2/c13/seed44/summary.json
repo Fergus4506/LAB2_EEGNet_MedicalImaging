@@ -1,0 +1,17 @@
+{
+  "name": "c13",
+  "model": "eegnet",
+  "activation": "elu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 44,
+  "best_epoch": 142,
+  "val_acc": 85.18518518518519,
+  "val_loss": 0.3974927983902119,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 13.585455499996897,
+  "selected_test_acc": 79.62962962962963,
+  "selected_test_loss": 0.4616153725871333
+}

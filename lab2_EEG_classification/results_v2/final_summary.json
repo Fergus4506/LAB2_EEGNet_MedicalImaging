@@ -1,0 +1,112 @@
+{
+  "frozen_selection": {
+    "candidate": "c15",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 300,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "full_train_epochs": 78,
+    "validation_epochs": [
+      243,
+      49,
+      70,
+      214,
+      78
+    ],
+    "validation_aggregate": {
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 89.35185185185185,
+      "val_acc_std": 0.9820927516479854,
+      "val_loss_mean": 0.3097446122103268,
+      "val_loss_std": 0.03150484612739901
+    },
+    "primary_endpoint": "five-seed full-train equal-weight softmax ensemble",
+    "candidates_sha256": "e33c77b601343cee744ba52b65057c04bf280fb7639b917168baf7a6834fe236",
+    "protocol_sha256": "0b0073a5f0a71c20826610a18f73b91b12b904a67dd2ac766d76fc01583727e7",
+    "decisions_sha256": "e11635a043c88c4c852984749e889a5570aa349a3875d7ec1ef5d148bb68fc4c"
+  },
+  "validation_selected": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "std_ddof": 1,
+    "val_acc_mean": 89.35185185185185,
+    "val_acc_std": 0.9820927516479854,
+    "val_loss_mean": 0.3097446122103268,
+    "val_loss_std": 0.03150484612739901,
+    "selected_test_acc_mean": 84.72222222222221,
+    "selected_test_acc_std": 0.8045438517121642,
+    "selected_test_loss_mean": 0.36685233027846725,
+    "selected_test_loss_std": 0.020081800127029505,
+    "ensemble": {
+      "checkpoints": [
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed42\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed43\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed44\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed45\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed46\\best.pt"
+      ],
+      "selection": "equal_weight_softmax",
+      "test_acc": 87.77777777777777,
+      "test_loss": 0.297931045293808
+    }
+  },
+  "full_train": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "std_ddof": 1,
+    "selected_test_acc_mean": 82.96296296296296,
+    "selected_test_acc_std": 1.927839149412688,
+    "selected_test_loss_mean": 0.4282983861587666,
+    "selected_test_loss_std": 0.07810922348117795,
+    "ensemble": {
+      "checkpoints": [
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed42\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed43\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed44\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed45\\best.pt",
+        "D:\\人工智慧醫學影像應用\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed46\\best.pt"
+      ],
+      "selection": "equal_weight_softmax",
+      "test_acc": 86.01851851851852,
+      "test_loss": 0.32261720299720764
+    }
+  }
+}

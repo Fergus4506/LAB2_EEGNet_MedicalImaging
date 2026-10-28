@@ -1,0 +1,232 @@
+{
+  "base": {
+    "separable": "depthwise",
+    "weight_decay": 0.001,
+    "optimizer": "adam",
+    "scheduler": "none",
+    "normalize": false,
+    "augment": false,
+    "full_train": false,
+    "validation_only": true,
+    "split_seed": 42,
+    "model": "eegnet",
+    "activation": "relu",
+    "alpha": 1.0,
+    "dropout": 0.25,
+    "num_epochs": 150,
+    "batch_size": 64,
+    "lr": 0.01
+  },
+  "stages": [
+    [
+      "separable",
+      [
+        {
+          "separable": "depthwise"
+        },
+        {
+          "separable": "full"
+        }
+      ]
+    ],
+    [
+      "weight_decay",
+      [
+        {
+          "weight_decay": 0.0
+        },
+        {
+          "weight_decay": 0.0001
+        },
+        {
+          "weight_decay": 0.001
+        }
+      ]
+    ],
+    [
+      "lr_scheduler",
+      [
+        {
+          "lr": 0.01,
+          "scheduler": "none"
+        },
+        {
+          "lr": 0.01,
+          "scheduler": "cosine"
+        },
+        {
+          "lr": 0.001,
+          "scheduler": "none"
+        },
+        {
+          "lr": 0.001,
+          "scheduler": "cosine"
+        }
+      ]
+    ],
+    [
+      "normalize",
+      [
+        {
+          "normalize": false
+        },
+        {
+          "normalize": true
+        }
+      ]
+    ],
+    [
+      "augment",
+      [
+        {
+          "augment": false
+        },
+        {
+          "augment": true
+        }
+      ]
+    ],
+    [
+      "dropout",
+      [
+        {
+          "dropout": 0.1
+        },
+        {
+          "dropout": 0.25
+        },
+        {
+          "dropout": 0.5
+        }
+      ]
+    ],
+    [
+      "activation",
+      [
+        {
+          "activation": "relu",
+          "alpha": 1.0
+        },
+        {
+          "activation": "leakyrelu",
+          "alpha": 1.0
+        },
+        {
+          "activation": "elu",
+          "alpha": 0.5
+        },
+        {
+          "activation": "elu",
+          "alpha": 1.0
+        }
+      ]
+    ],
+    [
+      "optimizer",
+      [
+        {
+          "optimizer": "adam"
+        },
+        {
+          "optimizer": "adamw"
+        }
+      ]
+    ],
+    [
+      "epochs",
+      [
+        {
+          "num_epochs": 150
+        },
+        {
+          "num_epochs": 300
+        }
+      ]
+    ]
+  ],
+  "search_seeds": [
+    42,
+    43,
+    44
+  ],
+  "final_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "selection": "mean validation accuracy descending, mean validation loss ascending; earlier candidate on exact ties",
+  "full_train_epochs": "median of five validation-selected epochs, rounded half up",
+  "primary_endpoint": "five-seed full-train equal-weight softmax ensemble",
+  "test_policy": "no test predictions until all configurations, seeds and full-train epochs are frozen; no further tuning",
+  "std_ddof": 1,
+  "original_results_sha256": {
+    "comparison.csv": "e3b5fd6710bcc6248ad6969a9728f138deb670ff5c2a5e53a08b04e8ab6db00c",
+    "deepconvnet_baseline\\acc.png": "d32e95416f229918b8ebfaccecacbb324c5bdd97a8b5de8e27af0b2227843a2e",
+    "deepconvnet_baseline\\best.pt": "3e30bc7491158e5e7e73399555d9f74d3801464272bc54d41f9c1e06ba15bf95",
+    "deepconvnet_baseline\\config.json": "717a8e7bb375adab3ea49fa4352ef923b2dc4be9e42f675081e6e51627f4813d",
+    "deepconvnet_baseline\\history.csv": "dde809453ce44d8f2765c9f1733bef41714382a6fb24c17fb448f79786521fc6",
+    "deepconvnet_baseline\\loss.png": "51588683751b1763d769bd11bc86bdc6ca6808082172e64b656e7f340d1169ba",
+    "deepconvnet_baseline\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "deepconvnet_baseline\\summary.json": "a597c77a3f19d6e450c23b51ca6779c7a8f3fdbd560e30af6ca21427574432eb",
+    "deepconvnet_baseline\\train.log": "1f365fefd2fbff3e2f226e5253aa2ccf74f4163cb17805c1abe54c0f75189693",
+    "eegnet_alpha05\\acc.png": "ae9ec58487eac937c60430ab77884aec0b93309800b4eceb761e7591249599da",
+    "eegnet_alpha05\\best.pt": "a3318d1f8667dd0b5e3b6f08313bd875f993d4c62953dd96bed57c0462e46ffc",
+    "eegnet_alpha05\\config.json": "bc517e33d866798c4fd5dcd075f98f986abdc142bec4e078279bb99beb307bd7",
+    "eegnet_alpha05\\history.csv": "b6aebd0e746f598276ec162bf9ddeac1f845d8786a649bb92e7676acc26ad74f",
+    "eegnet_alpha05\\loss.png": "d5f3ac480a27cc80895bbc06fa15a8f296157ac8e5dc0f49f7c33b4bb412dea3",
+    "eegnet_alpha05\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_alpha05\\summary.json": "92c77f45f851296ad909f00bb026b6261a94ad7f8e92e91e331638014d3119c1",
+    "eegnet_alpha05\\train.log": "3c3742a4687ad68c60cb3f6a2ecf16a2d942451a1f62cf1fcc8af7ed79a8e73a",
+    "eegnet_alpha2\\acc.png": "f0192dde0a29b9d078860fcc40eaea882aecdefae38b939b8d64782a964a1604",
+    "eegnet_alpha2\\best.pt": "d218bd0436ee254e48d6722badea40072614ee6c2588395f6f4c84619cc71c77",
+    "eegnet_alpha2\\config.json": "575c1f079294ea95be67693cbc224a24e08444b03a8ecdd8a3e43f509f0a7f8c",
+    "eegnet_alpha2\\history.csv": "7dc9466150d30ebe2ed0f303b52b1a4a704b3f732b01b4be70aac0d4be6e9870",
+    "eegnet_alpha2\\loss.png": "1a4bd2123c5cf7022b38866ad93af3f1e936a67ffc95ee18ca02fb4eb18b3997",
+    "eegnet_alpha2\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_alpha2\\summary.json": "83b748bc4c49ad532ed3d15de59f378ee5735d3c17d4a98b85d19f633adc4a20",
+    "eegnet_alpha2\\train.log": "0dd1fa8a5cae9da7b386b3932a2319759accdb9b848f0cee4a1dd6f4c0c426e3",
+    "eegnet_baseline\\acc.png": "1c72be6e55e73d6f53893d353df28c19236125cb3641b608ec288f47bee8f144",
+    "eegnet_baseline\\best.pt": "909e3c9cbb87d687b57685de57a388983628d7753d6b1107233461b0bfbd8c28",
+    "eegnet_baseline\\config.json": "6ef9c389746b79131cb883b5f084ad5b245ffd1f797762661a421fb4dcd89ba6",
+    "eegnet_baseline\\history.csv": "7a4d2e6a4b7b37c9f38438ea3b5e8ef42578e2e5b33932b0f10c3dd17bbe97d2",
+    "eegnet_baseline\\loss.png": "100eccf6a05b3a0c32255047adcff8cd2b5415cbcea17ca76910f59752e6ba86",
+    "eegnet_baseline\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_baseline\\summary.json": "798b2b8cf149eafadce08820bcd49ced588b1a24e081ed4576d2541cb320e76f",
+    "eegnet_baseline\\train.log": "997ca4d3457d949629181e2db973aa4e5b38bcdcea6fe0275f98d5f2c1eb1cc8",
+    "eegnet_dropout0\\acc.png": "a36745f3292308b179d6d8442dd90a993be540e2da3596ac0b436bef57daf628",
+    "eegnet_dropout0\\best.pt": "54a02ab2ac2732585a61b9b5f41eee161b4b6e0cab7df7af98780699c48948a9",
+    "eegnet_dropout0\\config.json": "676e9f7b56dce61e944f801117d8c2563e82dfb1d1418c2805daacda757206f7",
+    "eegnet_dropout0\\history.csv": "fb8c8816c3664c6f23c22c22420f70002df385db567f010af18a2b8a92260e8a",
+    "eegnet_dropout0\\loss.png": "284d43cd80d82af8055c8a5a35ded3ada79c396360ad099b2c3714cb668a845a",
+    "eegnet_dropout0\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_dropout0\\summary.json": "ec9a2134dc1e99380541d71a43536310b8f1359b49000bab93d3324f284fbed4",
+    "eegnet_dropout0\\train.log": "a5585ab00ea5e8b1f4e25b105ea83cd7c2371f21e53d0eb21c7f74ca0ec83546",
+    "eegnet_dropout05\\acc.png": "e8a37ebbeb94c7ced88bd4e4d5be55d55751145b791844655e4f7816e4be686c",
+    "eegnet_dropout05\\best.pt": "df7ec40fc5023d48958f71cd9ebbe2b79da8c2b5431b42629d3bdddb804cc535",
+    "eegnet_dropout05\\config.json": "6d501ac1a5e138729670c78d70f787c2a069a6049493b4651f0716544e333223",
+    "eegnet_dropout05\\history.csv": "27b1e1ddbd868911dd34b959bba1d9e5bb963d99940bc5ec4f751edcc633598e",
+    "eegnet_dropout05\\loss.png": "c42abed8511c61c412ce7d84dc307aed6ac675416ef396958caf505d0d3b80d2",
+    "eegnet_dropout05\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_dropout05\\summary.json": "417fe79c7464752ddf781f785faea30c7faa15e304de2e06664c6e04f90c33ae",
+    "eegnet_dropout05\\train.log": "54f47e436abca16675349026019fef7207de96a9bc089ffc6670eb909c7dfbe4",
+    "eegnet_leakyrelu\\acc.png": "a86659f276ac1c6c0a118777003d73799fd60221af853362f3caebfea73ca60d",
+    "eegnet_leakyrelu\\best.pt": "7c0fcbebb09d337b56eacc5bbcb22d717d6ae81c3e951baf924543e977965dd6",
+    "eegnet_leakyrelu\\config.json": "f7710cb92696ec2ee1cb7790871498190b250bcc808b0a4176fa15ce425dad11",
+    "eegnet_leakyrelu\\history.csv": "f9d80e0795a0dd9ca554c47d981c948063cfa05bf9cdab04590407b66260f8e7",
+    "eegnet_leakyrelu\\loss.png": "a36bb7287688e041ea3251dce04885f6a208f28a471b5823422300ded048d796",
+    "eegnet_leakyrelu\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_leakyrelu\\summary.json": "0349180635d69f2451e36f4c57dff6015069fee692c23e886e88b7cf82ffb46c",
+    "eegnet_leakyrelu\\train.log": "65b0647207b1e4da57c1690c95b61608a8f747a21c681c4d6c9754c63f61a443",
+    "eegnet_relu\\acc.png": "cab849b27a15108a6570488bf292a253534d60529723adde75ff8ada1f7b0bd8",
+    "eegnet_relu\\best.pt": "67b821bb3f5a8c5c9e7b3af8a7f16f4b6da70b43e0b44d43fb1fe8c6316ce49c",
+    "eegnet_relu\\config.json": "31a1bce265c560ffdd935d91f99a3ed07bfd8a13101c5b331749d61b6fd03041",
+    "eegnet_relu\\history.csv": "dae97179887497a864dec165055d6528ce18aea7eaecbf11c08aad8cb5742be0",
+    "eegnet_relu\\loss.png": "78ed03c2a53f0a2b247303071a83a1de0b2c85d0acca4a62ccb59eeae1f83f77",
+    "eegnet_relu\\split.npz": "c449d5b37262e3ffc443727d2f27c37d177147d7dacdca2f961b6bec2e72c457",
+    "eegnet_relu\\summary.json": "ef425237296101ee98a388a394b7f52086eb50e5c64e21995001ee86c366a59e",
+    "eegnet_relu\\train.log": "97dec6db7af1ec5c86508b2bfe58123b76435b4933831fffe5f447615cdf1f02",
+    "evaluation.json": "880adb5ec1398a3617790554d2b6e59a3fccf489005c5134ab33ab0602fb84e7"
+  }
+}

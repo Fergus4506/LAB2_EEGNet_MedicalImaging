@@ -1,0 +1,17 @@
+{
+  "name": "c12",
+  "model": "eegnet",
+  "activation": "elu",
+  "alpha": 0.5,
+  "dropout": 0.25,
+  "seed": 43,
+  "best_epoch": 47,
+  "val_acc": 89.35185185185185,
+  "val_loss": 0.29312820456646105,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 13.167076400015503,
+  "selected_test_acc": 81.2962962962963,
+  "selected_test_loss": 0.39298045370313855
+}

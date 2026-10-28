@@ -1,0 +1,17 @@
+{
+  "name": "c05",
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 44,
+  "best_epoch": 138,
+  "val_acc": 85.64814814814815,
+  "val_loss": 0.40661939205946745,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 13.034519600041676,
+  "selected_test_acc": 82.03703703703704,
+  "selected_test_loss": 0.5110073180110366
+}

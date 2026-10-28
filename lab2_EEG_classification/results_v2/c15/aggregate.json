@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "std_ddof": 1,
+  "val_acc_mean": 89.35185185185185,
+  "val_acc_std": 0.9820927516479854,
+  "val_loss_mean": 0.3097446122103268,
+  "val_loss_std": 0.03150484612739901,
+  "selected_test_acc_mean": 84.72222222222221,
+  "selected_test_acc_std": 0.8045438517121642,
+  "selected_test_loss_mean": 0.36685233027846725,
+  "selected_test_loss_std": 0.020081800127029505
+}

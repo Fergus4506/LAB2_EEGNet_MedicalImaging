@@ -1,0 +1,6 @@
+| �A�ȹ̶��Ĉ�淽�� | Test accuracy (%) | �x������ |
+|---|---|---|
+| 864 �PӖ����5 seeds ���e checkpoint | 84.7222 �� 0.8045 | �� seed �� validation accuracy���ٱ��^ loss |
+| 864 �PӖ����5 seeds ensemble | 87.7778 | �傀 checkpoint �ș� softmax ƽ�� |
+| 1,080 �P��Ӗ��5 seeds ���eģ�� | 82.9630 �� 1.9278 | �̶� 78 epochs������һ݆ |
+| 1,080 �P��Ӗ��5 seeds ensemble����Ҫ�ɹ��� | 86.0185 | �A��ָ�����傀ȫ�Y��ģ�͵ș�ƽ�� |

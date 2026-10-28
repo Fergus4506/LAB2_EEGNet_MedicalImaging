@@ -4,10 +4,10 @@ import numpy as np
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
 
-def read_bci_data(return_subjects=False, fill_missing=True):
+def read_bci_data(return_subjects=False, fill_missing=True, train_only=False):
     """Training code fits imputation after splitting off validation data."""
     signals, labels, subjects = {}, {}, {}
-    for split in ("train", "test"):
+    for split in (("train",) if train_only else ("train", "test")):
         xs, ys, ids = [], [], []
         for subject in ("S4b", "X11b"):
             with np.load(DATA_DIR / f"{subject}_{split}.npz", allow_pickle=False) as data:
@@ -22,6 +22,10 @@ def read_bci_data(return_subjects=False, fill_missing=True):
         signals[split] = np.concatenate(xs).transpose(0, 2, 1)[:, None].astype(np.float32)
         labels[split] = np.concatenate(ys)
         subjects[split] = np.array(ids)
+    if train_only:
+        signals["test"] = np.empty((0, 1, 2, 750), dtype=np.float32)
+        labels["test"] = np.empty(0, dtype=np.int64)
+        subjects["test"] = np.empty(0, dtype=str)
     if fill_missing:
         mean = float(np.nanmean(signals["train"]))
         if not np.isfinite(mean):

@@ -1,0 +1,18 @@
+selfcheck epoch=001 train_acc=63.1944% val_acc=72.68518518518519 val_loss=0.5915216273731656
+selfcheck epoch=002 train_acc=67.5926% val_acc=67.12962962962963 val_loss=0.5881640292980053
+Evaluation fixture uses held-out validation data, never actual test samples
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\.cache\\tmptah4igkc\\smoke\\best.pt",
+  "epoch": 1,
+  "test_loss": 0.5915216251655862,
+  "test_acc": 72.68518518518519,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+selfcheck epoch=001 train_acc=63.1944% val_acc=72.68518518518519 val_loss=0.5915216273731656
+selfcheck epoch=002 train_acc=67.5926% val_acc=67.12962962962963 val_loss=0.5881640292980053
+selfcheck epoch=001 train_acc=64.5370% val_acc=None val_loss=None
+selfcheck epoch=002 train_acc=66.4815% val_acc=None val_loss=None
+PASS: data, split, weighted loss, gradients, selection, reload, path and overwrite checks (cuda)

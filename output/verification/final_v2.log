@@ -1,0 +1,566 @@
+full_train epoch=001 train_acc=60.2778% val_acc=None val_loss=None
+full_train epoch=050 train_acc=86.7593% val_acc=None val_loss=None
+full_train epoch=078 train_acc=88.7963% val_acc=None val_loss=None
+full_train epoch=001 train_acc=59.4444% val_acc=None val_loss=None
+full_train epoch=050 train_acc=87.1296% val_acc=None val_loss=None
+full_train epoch=078 train_acc=88.6111% val_acc=None val_loss=None
+full_train epoch=001 train_acc=66.2963% val_acc=None val_loss=None
+full_train epoch=050 train_acc=87.2222% val_acc=None val_loss=None
+full_train epoch=078 train_acc=88.7963% val_acc=None val_loss=None
+full_train epoch=001 train_acc=60.4630% val_acc=None val_loss=None
+full_train epoch=050 train_acc=88.2407% val_acc=None val_loss=None
+full_train epoch=078 train_acc=88.0556% val_acc=None val_loss=None
+full_train epoch=001 train_acc=65.0926% val_acc=None val_loss=None
+full_train epoch=050 train_acc=87.0370% val_acc=None val_loss=None
+full_train epoch=078 train_acc=88.3333% val_acc=None val_loss=None
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c00\\seed42\\best.pt",
+  "epoch": 139,
+  "test_loss": 0.4113969908820258,
+  "test_acc": 85.27777777777777,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c00\\seed43\\best.pt",
+  "epoch": 137,
+  "test_loss": 0.47335513609426993,
+  "test_acc": 82.22222222222221,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c00\\seed44\\best.pt",
+  "epoch": 110,
+  "test_loss": 0.5224479754765828,
+  "test_acc": 82.03703703703704,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c01\\seed42\\best.pt",
+  "epoch": 146,
+  "test_loss": 0.43984861462204544,
+  "test_acc": 84.72222222222221,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c01\\seed43\\best.pt",
+  "epoch": 149,
+  "test_loss": 0.49714135019867506,
+  "test_acc": 82.77777777777777,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c01\\seed44\\best.pt",
+  "epoch": 128,
+  "test_loss": 0.45595037628103186,
+  "test_acc": 83.24074074074073,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c02\\seed42\\best.pt",
+  "epoch": 150,
+  "test_loss": 0.8043932967715793,
+  "test_acc": 79.25925925925927,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c02\\seed43\\best.pt",
+  "epoch": 119,
+  "test_loss": 0.6558109040613528,
+  "test_acc": 82.03703703703704,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c02\\seed44\\best.pt",
+  "epoch": 137,
+  "test_loss": 0.692603780384417,
+  "test_acc": 81.57407407407408,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c03\\seed42\\best.pt",
+  "epoch": 146,
+  "test_loss": 0.7563914826622715,
+  "test_acc": 80.64814814814815,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c03\\seed43\\best.pt",
+  "epoch": 121,
+  "test_loss": 0.5282406784870006,
+  "test_acc": 85.18518518518519,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c03\\seed44\\best.pt",
+  "epoch": 134,
+  "test_loss": 0.6698514443856699,
+  "test_acc": 81.2037037037037,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c04\\seed42\\best.pt",
+  "epoch": 68,
+  "test_loss": 0.4901282919777764,
+  "test_acc": 82.31481481481482,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c04\\seed43\\best.pt",
+  "epoch": 74,
+  "test_loss": 0.4514107417177271,
+  "test_acc": 84.35185185185186,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c04\\seed44\\best.pt",
+  "epoch": 96,
+  "test_loss": 0.5366680502891541,
+  "test_acc": 82.77777777777777,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c05\\seed42\\best.pt",
+  "epoch": 129,
+  "test_loss": 0.5512764474859944,
+  "test_acc": 83.14814814814815,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c05\\seed43\\best.pt",
+  "epoch": 93,
+  "test_loss": 0.5158301865613019,
+  "test_acc": 82.77777777777777,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c05\\seed44\\best.pt",
+  "epoch": 138,
+  "test_loss": 0.5110073180110366,
+  "test_acc": 82.03703703703704,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c06\\seed42\\best.pt",
+  "epoch": 110,
+  "test_loss": 0.45656515470257514,
+  "test_acc": 84.16666666666667,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c06\\seed43\\best.pt",
+  "epoch": 57,
+  "test_loss": 0.3803386935481319,
+  "test_acc": 84.07407407407408,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c06\\seed44\\best.pt",
+  "epoch": 54,
+  "test_loss": 0.4552723977300856,
+  "test_acc": 81.11111111111111,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c07\\seed42\\best.pt",
+  "epoch": 81,
+  "test_loss": 0.5590718468030293,
+  "test_acc": 80.55555555555556,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c07\\seed43\\best.pt",
+  "epoch": 149,
+  "test_loss": 0.4998351004388597,
+  "test_acc": 83.79629629629629,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c07\\seed44\\best.pt",
+  "epoch": 119,
+  "test_loss": 0.4815961705313789,
+  "test_acc": 83.51851851851852,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c08\\seed42\\best.pt",
+  "epoch": 47,
+  "test_loss": 0.38407980910053957,
+  "test_acc": 82.31481481481482,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c08\\seed43\\best.pt",
+  "epoch": 49,
+  "test_loss": 0.33398852039266513,
+  "test_acc": 85.0,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c08\\seed44\\best.pt",
+  "epoch": 70,
+  "test_loss": 0.37569467579876936,
+  "test_acc": 83.98148148148148,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c09\\seed42\\best.pt",
+  "epoch": 141,
+  "test_loss": 0.4661419554992958,
+  "test_acc": 83.05555555555556,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c09\\seed43\\best.pt",
+  "epoch": 138,
+  "test_loss": 0.3942693165055028,
+  "test_acc": 84.35185185185186,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c09\\seed44\\best.pt",
+  "epoch": 114,
+  "test_loss": 0.4012110886750398,
+  "test_acc": 84.25925925925925,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c10\\seed42\\best.pt",
+  "epoch": 104,
+  "test_loss": 0.36295152527314645,
+  "test_acc": 83.33333333333334,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c10\\seed43\\best.pt",
+  "epoch": 103,
+  "test_loss": 0.36285910606384275,
+  "test_acc": 84.16666666666667,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c10\\seed44\\best.pt",
+  "epoch": 94,
+  "test_loss": 0.36640667606283117,
+  "test_acc": 83.42592592592592,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c11\\seed42\\best.pt",
+  "epoch": 93,
+  "test_loss": 0.3388001830489547,
+  "test_acc": 85.46296296296296,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c11\\seed43\\best.pt",
+  "epoch": 150,
+  "test_loss": 0.3363390498691135,
+  "test_acc": 86.94444444444444,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c11\\seed44\\best.pt",
+  "epoch": 85,
+  "test_loss": 0.35390887326664394,
+  "test_acc": 85.74074074074073,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c12\\seed42\\best.pt",
+  "epoch": 101,
+  "test_loss": 0.3899364142506211,
+  "test_acc": 82.77777777777777,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c12\\seed43\\best.pt",
+  "epoch": 47,
+  "test_loss": 0.39298045370313855,
+  "test_acc": 81.2962962962963,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c12\\seed44\\best.pt",
+  "epoch": 141,
+  "test_loss": 0.39112248332412153,
+  "test_acc": 81.75925925925925,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c13\\seed42\\best.pt",
+  "epoch": 140,
+  "test_loss": 0.5563529394291066,
+  "test_acc": 71.48148148148148,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c13\\seed43\\best.pt",
+  "epoch": 137,
+  "test_loss": 0.4545105307190507,
+  "test_acc": 78.14814814814814,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c13\\seed44\\best.pt",
+  "epoch": 142,
+  "test_loss": 0.4616153725871333,
+  "test_acc": 79.62962962962963,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c14\\seed42\\best.pt",
+  "epoch": 71,
+  "test_loss": 0.3961375417532744,
+  "test_acc": 85.83333333333333,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c14\\seed43\\best.pt",
+  "epoch": 145,
+  "test_loss": 0.41873929235670304,
+  "test_acc": 85.46296296296296,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c14\\seed44\\best.pt",
+  "epoch": 119,
+  "test_loss": 0.5178995693171465,
+  "test_acc": 80.64814814814815,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed42\\best.pt",
+  "epoch": 243,
+  "test_loss": 0.38367396725548636,
+  "test_acc": 84.9074074074074,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed43\\best.pt",
+  "epoch": 49,
+  "test_loss": 0.33398852039266513,
+  "test_acc": 85.0,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed44\\best.pt",
+  "epoch": 70,
+  "test_loss": 0.37569467579876936,
+  "test_acc": 83.98148148148148,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed45\\best.pt",
+  "epoch": 214,
+  "test_loss": 0.37899658370901035,
+  "test_acc": 85.83333333333333,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed46\\best.pt",
+  "epoch": 78,
+  "test_loss": 0.361907904236405,
+  "test_acc": 83.88888888888889,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed42\\best.pt",
+  "epoch": 78,
+  "test_loss": 0.4221365765289024,
+  "test_acc": 82.5925925925926,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed43\\best.pt",
+  "epoch": 78,
+  "test_loss": 0.3617496139473385,
+  "test_acc": 84.81481481481481,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed44\\best.pt",
+  "epoch": 78,
+  "test_loss": 0.3752384640552379,
+  "test_acc": 84.35185185185186,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed45\\best.pt",
+  "epoch": 78,
+  "test_loss": 0.5590549539636682,
+  "test_acc": 79.9074074074074,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+{
+  "checkpoint": "D:\\\u4eba\u5de5\u667a\u6167\u91ab\u5b78\u5f71\u50cf\u61c9\u7528\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed46\\best.pt",
+  "epoch": 78,
+  "test_loss": 0.4233123222986857,
+  "test_acc": 83.14814814814815,
+  "test_sha256": {
+    "S4b_test.npz": "a23eaee490f7c40ef94df88ff14e74e194d8fe774d5ee109af529af9ba4240a1",
+    "X11b_test.npz": "205d52663f905abeb77dff5bb44365b3f55ac0fba9b41b339da0990a60525937"
+  }
+}
+FINAL {"frozen_selection": {"candidate": "c15", "config": {"separable": "full", "weight_decay": 0.001, "optimizer": "adam", "scheduler": "none", "normalize": false, "augment": true, "full_train": false, "validation_only": true, "split_seed": 42, "model": "eegnet", "activation": "relu", "alpha": 1.0, "dropout": 0.25, "num_epochs": 300, "batch_size": 64, "lr": 0.01}, "seeds": [42, 43, 44, 45, 46], "full_train_epochs": 78, "validation_epochs": [243, 49, 70, 214, 78], "validation_aggregate": {"seeds": [42, 43, 44, 45, 46], "std_ddof": 1, "val_acc_mean": 89.35185185185185, "val_acc_std": 0.9820927516479854, "val_loss_mean": 0.3097446122103268, "val_loss_std": 0.03150484612739901}, "primary_endpoint": "five-seed full-train equal-weight softmax ensemble", "candidates_sha256": "e33c77b601343cee744ba52b65057c04bf280fb7639b917168baf7a6834fe236", "protocol_sha256": "0b0073a5f0a71c20826610a18f73b91b12b904a67dd2ac766d76fc01583727e7", "decisions_sha256": "e11635a043c88c4c852984749e889a5570aa349a3875d7ec1ef5d148bb68fc4c"}, "validation_selected": {"seeds": [42, 43, 44, 45, 46], "std_ddof": 1, "val_acc_mean": 89.35185185185185, "val_acc_std": 0.9820927516479854, "val_loss_mean": 0.3097446122103268, "val_loss_std": 0.03150484612739901, "selected_test_acc_mean": 84.72222222222221, "selected_test_acc_std": 0.8045438517121642, "selected_test_loss_mean": 0.36685233027846725, "selected_test_loss_std": 0.020081800127029505, "ensemble": {"checkpoints": ["D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed42\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed43\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed44\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed45\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\c15\\seed46\\best.pt"], "selection": "equal_weight_softmax", "test_acc": 87.77777777777777, "test_loss": 0.297931045293808}}, "full_train": {"seeds": [42, 43, 44, 45, 46], "std_ddof": 1, "selected_test_acc_mean": 82.96296296296296, "selected_test_acc_std": 1.927839149412688, "selected_test_loss_mean": 0.4282983861587666, "selected_test_loss_std": 0.07810922348117795, "ensemble": {"checkpoints": ["D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed42\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed43\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed44\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed45\\best.pt", "D:\\�˹��ǻ��t�WӰ����\\lab2\\lab2_EEG_classification\\results_v2\\full_train\\seed46\\best.pt"], "selection": "equal_weight_softmax", "test_acc": 86.01851851851852, "test_loss": 0.32261720299720764}}}

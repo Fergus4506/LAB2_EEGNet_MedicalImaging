@@ -1,0 +1,17 @@
+{
+  "name": "c08",
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 44,
+  "best_epoch": 70,
+  "val_acc": 90.74074074074075,
+  "val_loss": 0.2857745670610004,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 13.99228490004316,
+  "selected_test_acc": 83.98148148148148,
+  "selected_test_loss": 0.37569467579876936
+}

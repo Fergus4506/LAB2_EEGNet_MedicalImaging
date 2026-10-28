@@ -1,0 +1,1282 @@
+[
+  {
+    "candidate": "c00",
+    "config": {
+      "separable": "depthwise",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 87.65432098765432,
+      "val_acc_std": 2.3301958133551643,
+      "val_loss_mean": 0.34364002391144083,
+      "val_loss_std": 0.05334819363395271
+    },
+    "runs": [
+      {
+        "name": "c00",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 139,
+        "val_acc": 89.81481481481481,
+        "val_loss": 0.3027669765331127,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 4018,
+        "seconds": 10.097274900006596
+      },
+      {
+        "name": "c00",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 137,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.3241632006786488,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 4018,
+        "seconds": 10.373125899990555
+      },
+      {
+        "name": "c00",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 110,
+        "val_acc": 85.18518518518519,
+        "val_loss": 0.40398989452256096,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 4018,
+        "seconds": 10.936213100038003
+      }
+    ]
+  },
+  {
+    "candidate": "c01",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 89.0432098765432,
+      "val_acc_std": 1.4143752144925401,
+      "val_loss_mean": 0.3493201322393653,
+      "val_loss_std": 0.015475527027106195
+    },
+    "runs": [
+      {
+        "name": "c01",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 146,
+        "val_acc": 90.27777777777777,
+        "val_loss": 0.3315500517686208,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 12.538258200045675
+      },
+      {
+        "name": "c01",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 149,
+        "val_acc": 89.35185185185185,
+        "val_loss": 0.3565741860204273,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 12.028483900008723
+      },
+      {
+        "name": "c01",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 128,
+        "val_acc": 87.5,
+        "val_loss": 0.35983615892904774,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 10.355358099972364
+      }
+    ]
+  },
+  {
+    "candidate": "c02",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.0,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 85.3395061728395,
+      "val_acc_std": 3.0825593141108314,
+      "val_loss_mean": 0.5712927024305602,
+      "val_loss_std": 0.10196219429159627
+    },
+    "runs": [
+      {
+        "name": "c02",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 150,
+        "val_acc": 83.33333333333333,
+        "val_loss": 0.5938274672737828,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 6.936699700017925
+      },
+      {
+        "name": "c02",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 119,
+        "val_acc": 88.88888888888889,
+        "val_loss": 0.4599482130121302,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 7.031203999998979
+      },
+      {
+        "name": "c02",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 137,
+        "val_acc": 83.79629629629629,
+        "val_loss": 0.6601024270057678,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 7.2455058000050485
+      }
+    ]
+  },
+  {
+    "candidate": "c03",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.0001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 85.18518518518518,
+      "val_acc_std": 3.240740740740742,
+      "val_loss_mean": 0.5537978175245685,
+      "val_loss_std": 0.15766502901726467
+    },
+    "runs": [
+      {
+        "name": "c03",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 146,
+        "val_acc": 83.79629629629629,
+        "val_loss": 0.5719700897181476,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 9.817664200032596
+      },
+      {
+        "name": "c03",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 121,
+        "val_acc": 88.88888888888889,
+        "val_loss": 0.3878340610751399,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 12.461798300035298
+      },
+      {
+        "name": "c03",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 134,
+        "val_acc": 82.87037037037037,
+        "val_loss": 0.7015893017804181,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.603577799978666
+      }
+    ]
+  },
+  {
+    "candidate": "c04",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "cosine",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 86.88271604938272,
+      "val_acc_std": 2.2837420658871546,
+      "val_loss_mean": 0.42079061012209196,
+      "val_loss_std": 0.09857386129618886
+    },
+    "runs": [
+      {
+        "name": "c04",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 68,
+        "val_acc": 84.25925925925925,
+        "val_loss": 0.523060127540871,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.877540699962992
+      },
+      {
+        "name": "c04",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 74,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.3263832794295417,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.454711899976246
+      },
+      {
+        "name": "c04",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 96,
+        "val_acc": 88.42592592592592,
+        "val_loss": 0.4129284233958633,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.140658600023016
+      }
+    ]
+  },
+  {
+    "candidate": "c05",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.001
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 87.19135802469135,
+      "val_acc_std": 1.336458956457464,
+      "val_loss_mean": 0.4139064143837234,
+      "val_loss_std": 0.006599640532441357
+    },
+    "runs": [
+      {
+        "name": "c05",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 129,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.4194811775728508,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.018297400034498
+      },
+      {
+        "name": "c05",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 93,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.41561867351885196,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.013942799996585
+      },
+      {
+        "name": "c05",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 138,
+        "val_acc": 85.64814814814815,
+        "val_loss": 0.40661939205946745,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.034519600041676
+      }
+    ]
+  },
+  {
+    "candidate": "c06",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "cosine",
+      "normalize": false,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.001
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 85.49382716049382,
+      "val_acc_std": 2.2837420658871546,
+      "val_loss_mean": 0.35023625820507237,
+      "val_loss_std": 0.039033867111084364
+    },
+    "runs": [
+      {
+        "name": "c06",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 110,
+        "val_acc": 86.57407407407408,
+        "val_loss": 0.3313677415803627,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 12.761063699959777
+      },
+      {
+        "name": "c06",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 57,
+        "val_acc": 87.03703703703704,
+        "val_loss": 0.3242215801168371,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 12.49916750000557
+      },
+      {
+        "name": "c06",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 54,
+        "val_acc": 82.87037037037037,
+        "val_loss": 0.39511945291801737,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 12.833532899967395
+      }
+    ]
+  },
+  {
+    "candidate": "c07",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": true,
+      "augment": false,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 87.19135802469135,
+      "val_acc_std": 1.6258724927241843,
+      "val_loss_mean": 0.37371666361520317,
+      "val_loss_std": 0.04736353695255649
+    },
+    "runs": [
+      {
+        "name": "c07",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 81,
+        "val_acc": 85.64814814814815,
+        "val_loss": 0.42765803579930906,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.893601699965075
+      },
+      {
+        "name": "c07",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 149,
+        "val_acc": 88.88888888888889,
+        "val_loss": 0.33893246948719025,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.592270500026643
+      },
+      {
+        "name": "c07",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 119,
+        "val_acc": 87.03703703703704,
+        "val_loss": 0.35455948555911027,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.768366399977822
+      }
+    ]
+  },
+  {
+    "candidate": "c08",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 89.6604938271605,
+      "val_acc_std": 1.1650979066775888,
+      "val_loss_mean": 0.30049478980126204,
+      "val_loss_std": 0.041448028182470904
+    },
+    "runs": [
+      {
+        "name": "c08",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 47,
+        "val_acc": 88.42592592592592,
+        "val_loss": 0.34729378201343397,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.920462700014468
+      },
+      {
+        "name": "c08",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 49,
+        "val_acc": 89.81481481481481,
+        "val_loss": 0.2684160203293518,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.325983999995515
+      },
+      {
+        "name": "c08",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 70,
+        "val_acc": 90.74074074074075,
+        "val_loss": 0.2857745670610004,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.99228490004316
+      }
+    ]
+  },
+  {
+    "candidate": "c09",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.1,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 88.73456790123457,
+      "val_acc_std": 0.70718760724627,
+      "val_loss_mean": 0.33147395227426363,
+      "val_loss_std": 0.05958374831891229
+    },
+    "runs": [
+      {
+        "name": "c09",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.1,
+        "seed": 42,
+        "best_epoch": 141,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.39942735212820546,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.677810699969996
+      },
+      {
+        "name": "c09",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.1,
+        "seed": 43,
+        "best_epoch": 138,
+        "val_acc": 88.88888888888889,
+        "val_loss": 0.28817123229856845,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.08259960002033
+      },
+      {
+        "name": "c09",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.1,
+        "seed": 44,
+        "best_epoch": 114,
+        "val_acc": 89.35185185185185,
+        "val_loss": 0.306823272396017,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.753197800018825
+      }
+    ]
+  },
+  {
+    "candidate": "c10",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.5,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 89.50617283950616,
+      "val_acc_std": 1.4882177100297818,
+      "val_loss_mean": 0.3030752524917508,
+      "val_loss_std": 0.026242633900111747
+    },
+    "runs": [
+      {
+        "name": "c10",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.5,
+        "seed": 42,
+        "best_epoch": 104,
+        "val_acc": 88.42592592592592,
+        "val_loss": 0.2868822299771839,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.093057700025383
+      },
+      {
+        "name": "c10",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.5,
+        "seed": 43,
+        "best_epoch": 103,
+        "val_acc": 91.20370370370371,
+        "val_loss": 0.2889903447142354,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.349733199982438
+      },
+      {
+        "name": "c10",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.5,
+        "seed": 44,
+        "best_epoch": 94,
+        "val_acc": 88.88888888888889,
+        "val_loss": 0.33335318278383325,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.957192899950314
+      }
+    ]
+  },
+  {
+    "candidate": "c11",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "leakyrelu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 88.88888888888887,
+      "val_acc_std": 1.224884866233604,
+      "val_loss_mean": 0.32992047264620106,
+      "val_loss_std": 0.025005204741419953
+    },
+    "runs": [
+      {
+        "name": "c11",
+        "model": "eegnet",
+        "activation": "leakyrelu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 93,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.3547582615304876,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 14.277912399964407
+      },
+      {
+        "name": "c11",
+        "model": "eegnet",
+        "activation": "leakyrelu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 150,
+        "val_acc": 90.27777777777777,
+        "val_loss": 0.3302520074778133,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.841605099965818
+      },
+      {
+        "name": "c11",
+        "model": "eegnet",
+        "activation": "leakyrelu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 85,
+        "val_acc": 88.42592592592592,
+        "val_loss": 0.30475114893030236,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.561935999954585
+      }
+    ]
+  },
+  {
+    "candidate": "c12",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "elu",
+      "alpha": 0.5,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 89.6604938271605,
+      "val_acc_std": 0.26729179129149283,
+      "val_loss_mean": 0.3058936257421234,
+      "val_loss_std": 0.016756628736474575
+    },
+    "runs": [
+      {
+        "name": "c12",
+        "model": "eegnet",
+        "activation": "elu",
+        "alpha": 0.5,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 101,
+        "val_acc": 89.81481481481481,
+        "val_loss": 0.2996839726412738,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.459819200041238
+      },
+      {
+        "name": "c12",
+        "model": "eegnet",
+        "activation": "elu",
+        "alpha": 0.5,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 47,
+        "val_acc": 89.35185185185185,
+        "val_loss": 0.29312820456646105,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.167076400015503
+      },
+      {
+        "name": "c12",
+        "model": "eegnet",
+        "activation": "elu",
+        "alpha": 0.5,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 141,
+        "val_acc": 89.81481481481481,
+        "val_loss": 0.3248687000186355,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.229763799987268
+      }
+    ]
+  },
+  {
+    "candidate": "c13",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "elu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 82.71604938271605,
+      "val_acc_std": 4.683330526386894,
+      "val_loss_mean": 0.4186521076861723,
+      "val_loss_std": 0.05060975006456331
+    },
+    "runs": [
+      {
+        "name": "c13",
+        "model": "eegnet",
+        "activation": "elu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 140,
+        "val_acc": 77.31481481481481,
+        "val_loss": 0.47640759856612597,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.234647100034636
+      },
+      {
+        "name": "c13",
+        "model": "eegnet",
+        "activation": "elu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 137,
+        "val_acc": 85.64814814814815,
+        "val_loss": 0.3820559261021791,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.232236500014551
+      },
+      {
+        "name": "c13",
+        "model": "eegnet",
+        "activation": "elu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 142,
+        "val_acc": 85.18518518518519,
+        "val_loss": 0.3974927983902119,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 13.585455499996897
+      }
+    ]
+  },
+  {
+    "candidate": "c14",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adamw",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 150,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 88.88888888888887,
+      "val_acc_std": 1.224884866233604,
+      "val_loss_mean": 0.33455350204014483,
+      "val_loss_std": 0.08787521686913921
+    },
+    "runs": [
+      {
+        "name": "c14",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 71,
+        "val_acc": 88.42592592592592,
+        "val_loss": 0.3120613876316283,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 7.861866199993528
+      },
+      {
+        "name": "c14",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 145,
+        "val_acc": 90.27777777777777,
+        "val_loss": 0.26011039813359577,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 7.541783900000155
+      },
+      {
+        "name": "c14",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 119,
+        "val_acc": 87.96296296296296,
+        "val_loss": 0.43148872035521046,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 7.596619600022677
+      }
+    ]
+  },
+  {
+    "candidate": "c15",
+    "config": {
+      "separable": "full",
+      "weight_decay": 0.001,
+      "optimizer": "adam",
+      "scheduler": "none",
+      "normalize": false,
+      "augment": true,
+      "full_train": false,
+      "validation_only": true,
+      "split_seed": 42,
+      "model": "eegnet",
+      "activation": "relu",
+      "alpha": 1.0,
+      "dropout": 0.25,
+      "num_epochs": 300,
+      "batch_size": 64,
+      "lr": 0.01
+    },
+    "aggregate": {
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "std_ddof": 1,
+      "val_acc_mean": 89.6604938271605,
+      "val_acc_std": 1.1650979066775888,
+      "val_loss_mean": 0.297071813893171,
+      "val_loss_std": 0.03567231228588082
+    },
+    "runs": [
+      {
+        "name": "c15",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 42,
+        "best_epoch": 243,
+        "val_acc": 88.42592592592592,
+        "val_loss": 0.33702485428916085,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 15.619220599997789
+      },
+      {
+        "name": "c15",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 43,
+        "best_epoch": 49,
+        "val_acc": 89.81481481481481,
+        "val_loss": 0.2684160203293518,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 16.513142100011464
+      },
+      {
+        "name": "c15",
+        "model": "eegnet",
+        "activation": "relu",
+        "alpha": 1.0,
+        "dropout": 0.25,
+        "seed": 44,
+        "best_epoch": 70,
+        "val_acc": 90.74074074074075,
+        "val_loss": 0.2857745670610004,
+        "selection": "validation_accuracy_then_loss",
+        "reload_verified": true,
+        "parameters": 17874,
+        "seconds": 15.656862000003457
+      }
+    ]
+  }
+]

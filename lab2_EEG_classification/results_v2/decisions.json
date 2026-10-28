@@ -1,0 +1,89 @@
+[
+  {
+    "stage": "separable",
+    "parent": "c00",
+    "candidates": [
+      "c00",
+      "c01"
+    ],
+    "selected": "c01"
+  },
+  {
+    "stage": "weight_decay",
+    "parent": "c01",
+    "candidates": [
+      "c02",
+      "c03",
+      "c01"
+    ],
+    "selected": "c01"
+  },
+  {
+    "stage": "lr_scheduler",
+    "parent": "c01",
+    "candidates": [
+      "c01",
+      "c04",
+      "c05",
+      "c06"
+    ],
+    "selected": "c01"
+  },
+  {
+    "stage": "normalize",
+    "parent": "c01",
+    "candidates": [
+      "c01",
+      "c07"
+    ],
+    "selected": "c01"
+  },
+  {
+    "stage": "augment",
+    "parent": "c01",
+    "candidates": [
+      "c01",
+      "c08"
+    ],
+    "selected": "c08"
+  },
+  {
+    "stage": "dropout",
+    "parent": "c08",
+    "candidates": [
+      "c09",
+      "c08",
+      "c10"
+    ],
+    "selected": "c08"
+  },
+  {
+    "stage": "activation",
+    "parent": "c08",
+    "candidates": [
+      "c08",
+      "c11",
+      "c12",
+      "c13"
+    ],
+    "selected": "c08"
+  },
+  {
+    "stage": "optimizer",
+    "parent": "c08",
+    "candidates": [
+      "c08",
+      "c14"
+    ],
+    "selected": "c08"
+  },
+  {
+    "stage": "epochs",
+    "parent": "c08",
+    "candidates": [
+      "c08",
+      "c15"
+    ],
+    "selected": "c15"
+  }
+]

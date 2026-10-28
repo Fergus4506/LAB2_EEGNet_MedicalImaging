@@ -21,9 +21,11 @@ def validate_options(alpha, dropout):
 
 
 class EEGNet(nn.Module):
-    def __init__(self, activation="elu", alpha=1.0, dropout=0.25):
+    def __init__(self, activation="elu", alpha=1.0, dropout=0.25, separable="depthwise"):
         super().__init__()
         validate_options(alpha, dropout)
+        if separable not in ("depthwise", "full"):
+            raise ValueError("separable must be depthwise or full")
         self.firstconv = nn.Sequential(
             nn.Conv2d(1, 16, (1, 51), padding=(0, 25), bias=False),
             nn.BatchNorm2d(16),
@@ -33,9 +35,14 @@ class EEGNet(nn.Module):
             nn.BatchNorm2d(32), activation_layer(activation, alpha),
             nn.AvgPool2d((1, 4)), nn.Dropout(dropout),
         )
-        self.separableConv = nn.Sequential(
+        temporal = [
             nn.Conv2d(32, 32, (1, 15), padding=(0, 7), groups=32, bias=False),
             nn.Conv2d(32, 32, (1, 1), bias=False),
+        ] if separable == "depthwise" else [
+            nn.Conv2d(32, 32, (1, 15), padding=(0, 7), bias=False),
+        ]
+        self.separableConv = nn.Sequential(
+            *temporal,
             nn.BatchNorm2d(32), activation_layer(activation, alpha),
             nn.AvgPool2d((1, 8)), nn.Dropout(dropout),
         )

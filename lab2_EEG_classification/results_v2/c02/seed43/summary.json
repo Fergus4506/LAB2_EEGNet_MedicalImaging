@@ -1,0 +1,17 @@
+{
+  "name": "c02",
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 43,
+  "best_epoch": 119,
+  "val_acc": 88.88888888888889,
+  "val_loss": 0.4599482130121302,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 7.031203999998979,
+  "selected_test_acc": 82.03703703703704,
+  "selected_test_loss": 0.6558109040613528
+}

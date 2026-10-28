@@ -1,0 +1,17 @@
+{
+  "name": "c15",
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 45,
+  "best_epoch": 214,
+  "val_acc": 88.42592592592592,
+  "val_loss": 0.33925845060083604,
+  "selection": "validation_accuracy_then_loss",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 15.065493399975821,
+  "selected_test_acc": 85.83333333333333,
+  "selected_test_loss": 0.37899658370901035
+}

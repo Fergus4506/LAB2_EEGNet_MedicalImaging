@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><style>
+body{margin:0;background:#1e1e1e;font-family:Consolas,"Cascadia Mono",monospace;color:#d4d4d4}
+.bar{background:#2d2d2d;color:#ccc;padding:8px 14px;font:13px "Segoe UI",sans-serif}
+pre{margin:0;padding:14px 18px;font-size:15px;line-height:1.45} .p{color:#6a9955}</style>
+<div class="bar">PowerShell — D:\人工智慧醫學影像應用\lab2</div>
+<pre><span class="p">PS D:\人工智慧醫學影像應用\lab2&gt;</span> .\.venv\Scripts\python.exe lab2_EEG_classification\show_final_v2.py
+frozen candidate: c15  seeds: [42, 43, 44, 45, 46]
+
+[864-train, validation-selected]
+  seed 42  epoch 243  test_acc 84.9074%  test_loss 0.3837
+  seed 43  epoch  49  test_acc 85.0000%  test_loss 0.3340
+  seed 44  epoch  70  test_acc 83.9815%  test_loss 0.3757
+  seed 45  epoch 214  test_acc 85.8333%  test_loss 0.3790
+  seed 46  epoch  78  test_acc 83.8889%  test_loss 0.3619
+  5-seed softmax ensemble  <b style="color:#ffd866">test_acc 87.7778%</b>  test_loss 0.2979
+
+[1080-train, fixed 78 epochs]
+  seed 42  epoch  78  test_acc 82.5926%  test_loss 0.4221
+  seed 43  epoch  78  test_acc 84.8148%  test_loss 0.3617
+  seed 44  epoch  78  test_acc 84.3519%  test_loss 0.3752
+  seed 45  epoch  78  test_acc 79.9074%  test_loss 0.5591
+  seed 46  epoch  78  test_acc 83.1481%  test_loss 0.4233
+  5-seed softmax ensemble  test_acc 86.0185%  test_loss 0.3226
+</pre>

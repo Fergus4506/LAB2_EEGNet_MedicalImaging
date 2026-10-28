@@ -1,0 +1,17 @@
+{
+  "name": "full_train",
+  "model": "eegnet",
+  "activation": "relu",
+  "alpha": 1.0,
+  "dropout": 0.25,
+  "seed": 42,
+  "best_epoch": 78,
+  "val_acc": null,
+  "val_loss": null,
+  "selection": "fixed_epochs_full_train",
+  "reload_verified": true,
+  "parameters": 17874,
+  "seconds": 14.550728000001982,
+  "selected_test_acc": 82.5925925925926,
+  "selected_test_loss": 0.4221365765289024
+}

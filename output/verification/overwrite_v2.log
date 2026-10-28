@@ -1,0 +1,10 @@
+usage: main.py [-h] [-num_epochs NUM_EPOCHS] [-batch_size BATCH_SIZE] [-lr LR]
+               [--model {eegnet,deepconvnet}]
+               [--activation {elu,relu,leakyrelu}] [--alpha ALPHA]
+               [--dropout DROPOUT] [--seed SEED] [--split-seed SPLIT_SEED]
+               [--seeds SEEDS [SEEDS ...]] [--ensemble]
+               [--separable {depthwise,full}] [--weight-decay WEIGHT_DECAY]
+               [--optimizer {adam,adamw}] [--scheduler {none,cosine}]
+               [--normalize] [--augment] [--full-train] [--validation-only]
+               [--output OUTPUT] [--suite] [--evaluate CHECKPOINT]
+main.py: error: Experiment directory exists; choose a new --output to preserve earlier results
