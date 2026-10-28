@@ -47,7 +47,7 @@
 - [x] GitHub repository `https://github.com/Fergus4506/LAB2_EEGNet_MedicalImaging` 已建立並可公開存取，網址已填入 V2 報告第 4 節。
 - [x] 2026/10/28 V2 程式碼、README 與 results_v2 成果（不含 checkpoint）已 commit 並 push 至 GitHub。
 - [x] V2 報告章節改為規格的 1. Introduction～5. Bonus，新增 2.6 Highest Testing Accuracy (Screenshot)，移除內部備註；DOCX 已重新產生。
-- [ ] 以 Word 將 V2 DOCX 另存為 PDF（本機 Word COM 自動化無法使用），逐頁檢查。
+- [x] V2 DOCX 已以 Word 另存為 PDF（18 頁），逐頁檢查章節、截圖、曲線、公式與 GitHub 連結。
 - [ ] 上傳 `output/pdf/V2/LAB2_315553010_楊敦傑.pdf` 至 E3，確認提交狀態成功。
 
 效能目標為 87%，以實測結果為準；單一 seed 不提供穩定達標保證。本次不以 test 峰值挑選權重，也不會為追求門檻追加 test 導向搜尋。
